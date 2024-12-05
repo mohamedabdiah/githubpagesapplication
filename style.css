@@ -1,0 +1,35 @@
+body{
+      background-color: darkblue;
+      color:white;
+
+}
+
+#increment{
+      background-color: seagreen;
+      color: white;
+      width: 25%;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+#elementCounter{
+      background-color: white;
+      color: black;
+      width: 25%;
+      border: 0;
+      border-radius: 5px;
+}
+
+#decrement{
+      background-color: red;
+      color: white;
+      width: 25%;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.container{
+      margin-top: 40px;
+      margin-left: 40px;
+}
