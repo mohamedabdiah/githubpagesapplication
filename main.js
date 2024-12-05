@@ -10,5 +10,9 @@ increment.addEventListener("click",()=>{
 
 decrement.addEventListener("click",()=>{
       counter--
-      elementCounter.innerHTML = counter
+      if(counter <= 0){
+            alert("counter is a finished cannot be continued")
+            return
+      }  
+    elementCounter.innerHTML = counter
   });
