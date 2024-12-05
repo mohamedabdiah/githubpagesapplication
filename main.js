@@ -5,6 +5,11 @@ const decrement = document.getElementById("decrement")
 let counter =0
 increment.addEventListener("click",()=>{
       counter++
+      if(counter == 10){
+            document.body.style.backgroundColor = "dodgerblue"
+      }else if(counter ==20){
+             document.body.style.backgroundColor = "orange"
+      }
     elementCounter.innerHTML = counter
 });
 
